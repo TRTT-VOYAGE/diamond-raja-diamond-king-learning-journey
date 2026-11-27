@@ -87,3 +87,16 @@ The first visual concept for the three-universe experience is available here:
 - [Design Review & Verification](DESIGN-REVIEW.md)
 
 The prototype is a static, responsive front-end concept with illustrative sample data. It is not a deployed SaaS and has no backend, authentication, persistence, or live integrations.
+
+
+## Diamond King Learning Journey — Free for Everyone 👑💎
+
+**Learn → Imagine → Build → Share**
+
+> Go take what you need, build your own ship!
+
+The public learning journey is open for everyone to explore. Start with the [Free for Everyone mission](FREE-FOR-EVERYONE.md), then use the repository's lessons, project records, and design resources to learn, imagine, build, and share your own work.
+
+**Access is free; third-party licences still apply.** Give attribution where required, respect privacy and copyright, and distinguish verified results from examples and experiments.
+
+[Explore the TRTT-VOYAGE GitHub organization](https://github.com/TRTT-VOYAGE).

@@ -1,82 +1,72 @@
-# Visual Design System — Diamond King Master Franchise
+# Diamond King Universe — Visual Design System
 
-**Version:** 1.0 concept  
-**Status:** Design specification for design/index.html.  
-**Maturity:** Design artifact only; not a deployed product.
+**Project:** Diamond Raja & Diamond King — Human–AI Project Journal  
+**Project code:** DR-TRTT-OPS-001  
+**Experience status:** Static interactive concept prototype; not a deployed SaaS product.
 
-## Product experience
+## Design direction
 
-The experience is a visual-first workspace with three distinct but connected universes:
+A premium, visual-first knowledge universe. The experience should feel like an editorial exploration interface combined with a calm, usable workspace — not a conventional text-heavy blog, game dashboard, or a claim of a functioning franchise network.
 
-1. **Learning Universe / Learning Studio** — lessons, learning paths, corrections, experiments, and progress.
-2. **Idea Universe / Idea Atlas** — owner-originated ideas, relationship maps, hypotheses, experiments, and incubation.
-3. **SaaS Universe** — project workspaces, decisions, evidence, timelines, dashboards, and a future partner/franchise layer.
+## Brand tokens
 
-A shared Command Center provides orientation without collapsing the three universes into one feed.
-
-## Visual identity
-
-Use the approved project palette:
-
-| Token | Hex | Role |
+| Token | Value | Intended use |
 |---|---|---|
-| Pink | #E98BAF | Learning highlights, selected states |
-| Piyaji | #B77991 | Secondary accent, links, labels |
-| Kathali | #D6A542 | Primary action, achievement, key markers |
-| Royal Midnight | #11152D | Navigation, hero, primary dark surface |
-| White | #FFFFFF | Cards and content surfaces |
-| Cyan accent | #67E8F9 | Technical/evidence accent |
-| Diamond Gold | #FFD700 | Reserved highlight accent |
+| Royal Midnight | `#11152D` | Navigation, deep sections, primary text |
+| Pink | `#E98BAF` | Learning accents, highlights |
+| Piyaji | `#B77991` | Secondary accents, headings |
+| Kathali | `#D6A542` | Focus, premium detail, key markers |
+| White | `#FFFFFF` | Cards and clear content surfaces |
+| Cyan accent | `#67E8F9` | Technical/connection accent |
 
-Neutral backgrounds and text use low-contrast greys only for supporting UI, not as replacement brand colours.
+## Typography
 
-## Layout and navigation
+- Display: Manrope, with system fallback.
+- Body: DM Sans, with system fallback.
+- Keep headings short and expressive; body copy readable and restrained.
+- Google Fonts are optional enhancement; system fallbacks keep the page readable if unavailable.
 
-- Desktop: fixed left navigation rail (248px), fluid content canvas, max-width 1600px.
-- Tablet: compact rail and two-column panels.
-- Mobile: compact brand header, collapsible navigation, single-column cards.
-- Navigation: Command Center, Three Universes, Idea Atlas, Learning Studio, Journey Timeline, Prototype Gallery, Trust & Ownership, Project Status.
-- Keep primary actions visible and labels explicit.
-- Avoid deep nested menus and avoid presenting every future module at once.
+## Information architecture
 
-## Core components
-
-- **Hero:** Royal Midnight gradient, concise value proposition, two clear navigation actions.
-- **Status chip:** persistent “Concept · Not Live SaaS” marker.
-- **Metric cards:** sample data must be explicitly described as illustrative.
-- **Universe cards:** three visually distinct entry points with one-sentence purpose.
-- **Idea map:** labelled SVG diagram with text description; no decorative-only connections.
-- **Timeline:** ordered steps with maturity language (proposed / in progress / verified).
-- **Learning progress:** progress bars labelled as sample values until connected to real records.
-- **Prototype tiles:** clearly identify module concepts, not available production features.
-- **Trust panel:** human ownership, private-by-default sharing, and evidence provenance.
+1. **Home / Hero:** project identity, value proposition, entry point.
+2. **Three Universes:** Learning, Idea, and SaaS worlds.
+3. **Interactive Concept Map:** selectable nodes reveal connections and design principles.
+4. **Product Blueprint:** staged product evolution and nine delivery workstreams.
+5. **Human–AI Promise:** ownership, attribution, privacy, and project link.
 
 ## Interaction model
 
-The static prototype supports in-page navigation and a mobile navigation toggle. It does not persist data or connect to a backend. Future interaction requirements:
+- Main navigation uses in-page anchors.
+- Universe cards guide visitors to the relevant concept section.
+- Concept-map nodes update the adjacent detail panel without a page reload.
+- Mobile navigation opens and closes with an accessible state attribute.
+- Reduced-motion preferences are respected.
 
-- Select a node to open its record, provenance, related ideas, and permissions.
-- Filter maps by universe, project, owner, and verification state.
-- Timeline filters by date, project, and milestone status.
-- Search across only the workspaces the current user can access.
-- Export selected records to Markdown and JSON.
-- Require confirmation before sharing or publishing.
-- Preserve keyboard operation, visible focus, semantic headings, descriptive labels, and reduced-motion preferences.
+## Accessibility and responsive behaviour
 
-## Accessibility and responsive acceptance criteria
+- Semantic landmarks, headings, links, and buttons.
+- Descriptive accessible names for the concept map and menu.
+- Keyboard-operable native buttons.
+- Visible focus should remain browser-native; do not remove outlines.
+- Responsive layouts for desktop, tablet, and mobile.
+- Reduced-motion support.
 
-- Semantic landmarks, heading hierarchy, accessible names, and keyboard navigation.
-- Text contrast should be checked against WCAG 2.2 AA before production.
-- Layout works at 320px width without horizontal page scrolling.
-- Controls have visible focus and meaningful accessible state.
-- SVG map has a title and descriptive text alternative.
-- Respect prefers-reduced-motion.
-- No essential information conveyed by colour alone.
+## Content and trust boundaries
 
-## Prototype verification
+- Clearly identify the experience as a concept.
+- Do not imply live accounts, real-time synchronization, active billing, customers, or franchise operations.
+- Do not imply automatic access to private ChatGPT conversations.
+- Keep private-by-default, selective sharing, human ownership, and evidence provenance as product requirements.
+- No third-party analytics, tracking scripts, payment widgets, or credential collection are included.
 
-- Self-contained HTML, CSS, SVG, and small vanilla JavaScript; no external runtime dependencies.
-- Mobile navigation toggle is keyboard-operable and exposes aria-expanded.
-- Main sections are reachable by in-page links.
-- Illustrative dashboard metrics and learning progress are explicitly labelled.
-- No authentication, database, external API, analytics, tracking, or data persistence is included.
+## Local preview
+
+Open `index.html` in a browser. The concept map and mobile menu work client-side without a backend. Google Fonts require network access; system fallbacks are included.
+
+## Next validation gates
+
+1. Owner review of brand direction and information architecture.
+2. Usability test with representative users.
+3. Accessibility audit with keyboard and screen-reader testing.
+4. Product and technical specification before any real user data is introduced.
+5. Threat model and privacy review before authentication or cloud storage.

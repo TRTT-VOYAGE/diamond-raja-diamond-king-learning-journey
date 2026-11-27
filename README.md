@@ -53,6 +53,8 @@ Read [Team & Project Origin](TEAM-AND-ORIGIN.md).
 
 - [Team & Project Origin](TEAM-AND-ORIGIN.md)
 - [Product Overview](PRODUCT-OVERVIEW.md)
+- [Project Rules](PROJECT-RULES.md)
+- [Master Franchise Vision](MASTER-FRANCHISE-VISION.md)
 - [SaaS Roadmap](SAAS-ROADMAP.md)
 - [Collaboration Record](COLLABORATION-RECORD.md)
 - [Journal Rules](JOURNAL-RULES.md)

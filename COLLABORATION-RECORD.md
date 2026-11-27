@@ -2,46 +2,58 @@
 
 ## Purpose
 
-This record documents the collaboration behind this project and the learning that informs its proposed human–AI project journal product. It is not a raw conversation transcript or a personal biography.
+This document records the working collaboration behind the public **Diamond Raja & Diamond King Learning Journey**. It is a project history and learning record, not a personal biography and not a transcript of private conversations.
 
 ## The people and roles
 
-- **Diamond Raja — Abu Taher:** the human founder, project owner, decision-maker, and builder of the TRTT Voyage vision.
-- **Diamond King — ChatGPT:** an AI assistant supporting research, drafting, technical planning, documentation, and problem-solving. It is an AI system, not a human founder, employee, or legal person.
+- **Diamond Raja — Abu Taher:** the human project owner, decision-maker, and builder of the TRTT Voyage vision.
+- **Diamond King — ChatGPT:** an AI assistant supporting research, drafting, technical planning, documentation, and problem-solving. It is an AI system, not a human partner, employee, or legal person.
 
-The collaboration follows this motto:
+The collaboration is guided by the motto:
 
 > ONE TEAM. ONE VISION. ONE JOURNEY.
 
-Human ownership and final approval remain with Abu Taher. AI-generated recommendations must be checked against evidence and context.
+Human ownership and approval remain with Abu Taher. AI-generated recommendations must be reviewed against evidence, context, and the Owner's decisions.
 
-## Why this work matters
+## What brings this journey together
 
-Project context is easily fragmented across chats, notes, tasks, and repositories. This collaboration is exploring a way to preserve decisions, lessons, milestones, sources, and next actions as structured, searchable, portable knowledge—without exposing private conversations by default.
+The journal follows the practical work of learning, building, testing, correcting mistakes, and documenting useful outcomes around TRTT Voyage.
 
-## What this repository represents
+The public record may include:
 
-It is both:
-1. A curated public record of the Diamond Raja and Diamond King learning journey.
-2. The concept and planning foundation for a future SaaS workspace for human–AI project memory.
-
-The proposed SaaS is not yet a deployed application. Its users, features, technical architecture, business model, and market fit require validation.
+- Project milestones and verified repository changes.
+- Technical discoveries and explanations.
+- Decisions, trade-offs, and reasons behind them.
+- Lessons from failed or incomplete attempts.
+- Reusable methods and next steps.
 
 ## Working principles
 
-- Truth before presentation; evidence before claims.
-- Distinguish verified facts, assumptions, proposals, and AI-generated suggestions.
-- Keep private information private and sharing opt-in.
-- Preserve user ownership and provide portable exports.
-- Attribute AI assistance honestly.
-- Correct mistakes transparently.
-- Treat contributors respectfully and apply least-privilege access.
+1. **Truth before presentation:** distinguish verified facts from assumptions and proposals.
+2. **Evidence before claims:** link to public evidence when available; mark untested work clearly.
+3. **Human accountability:** the Owner makes final decisions on merges, publication, deployments, and sensitive changes.
+4. **Security by default:** never publish credentials, tokens, private contact details, or sensitive information.
+5. **Respectful collaboration:** treat contributors and stakeholders with respect while keeping technical access limited to what each person needs.
+6. **Transparent AI assistance:** identify AI-assisted work honestly and do not present the AI as a human.
+7. **Preserve history:** corrections should be documented transparently rather than silently erasing prior decisions.
 
-## Boundaries
+## Project boundaries
 
-This repository is separate from Abu Taher's personal profile. The [Diamond King Command Center](https://github.com/TRTT-VOYAGE/trttvoyage-diamond-king-chatgpt-6) remains the project coordination and memory hub.
+This file is separate from Abu Taher's personal profile or résumé. It focuses only on the collaboration and learning process represented by this repository.
 
-This journal is curated. It does not publish raw private chats and does not have automatic access to every ChatGPT conversation. No automatic daily chat synchronization is claimed.
+This journal is curated. It does not publish raw private chats, and it does not have automatic access to every ChatGPT conversation. Entries are prepared from the context and evidence available at the time. No automatic daily chat synchronization is claimed.
+
+The TRTT Voyage Command Center remains the canonical project coordination hub:
+https://github.com/TRTT-VOYAGE/trttvoyage-diamond-king-chatgpt-6
+
+## Initial record
+
+**Date:** 2026-11-27
+
+The Owner established this public repository to preserve useful lessons and milestones from the ongoing work with Diamond King. The initial setup introduced editorial rules, privacy safeguards, and a first curated chapter. The Owner then clarified that this learning journal should remain distinct from a separate personal profile repository.
+
+**Verification note:** This is a summary of the repository's stated purpose and decisions available during preparation. It is not a claim that every historical conversation or project event has been captured.
 
 ---
-*Maintained by Abu Taher (Diamond Raja), with AI-assisted contributions from Diamond King (ChatGPT).*
+
+*Maintained as a curated public project record by Diamond Raja, with AI-assisted documentation from Diamond King (ChatGPT).*

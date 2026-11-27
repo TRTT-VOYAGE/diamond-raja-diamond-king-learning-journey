@@ -87,3 +87,8 @@ The first visual concept for the three-universe experience is available here:
 - [Design Review & Verification](DESIGN-REVIEW.md)
 
 The prototype is a static, responsive front-end concept with illustrative sample data. It is not a deployed SaaS and has no backend, authentication, persistence, or live integrations.
+
+
+## Current standalone experience
+
+The repository root [index.html](index.html) is the current self-contained visual experience. It includes the responsive Learning, Ideas, and SaaS concept, interactive journey map, and product blueprint. The separate [design/index.html](design/index.html) remains a historical design exploration. This is still a static concept prototype, not a deployed SaaS.

@@ -76,3 +76,14 @@ This repository is curated, not a raw live-chat dump. Diamond King does not have
 
 ---
 *Public project record maintained by Abu Taher (Diamond Raja), with AI-assisted contributions from Diamond King (ChatGPT).*
+
+
+## Visual design prototype
+
+The first visual concept for the three-universe experience is available here:
+
+- [Open the Master Franchise visual prototype](design/index.html)
+- [Visual Design System](DESIGN-SYSTEM.md)
+- [Design Review & Verification](DESIGN-REVIEW.md)
+
+The prototype is a static, responsive front-end concept with illustrative sample data. It is not a deployed SaaS and has no backend, authentication, persistence, or live integrations.

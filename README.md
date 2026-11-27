@@ -1,32 +1,78 @@
-# Diamond Raja & Diamond King — Learning Journey
+# Diamond Raja & Diamond King — Human–AI Project Journal
 
-A public, curated journal documenting how Diamond Raja and Diamond King learn, build, experiment, solve problems, and develop TRTT Voyage together.
+**A human–AI collaboration project with a SaaS product direction.**
 
-**Project:** TRTT Voyage  
-**Motto:** ONE TEAM. ONE VISION. ONE JOURNEY.  
-**Companion hub:** [Diamond King Command Center](https://github.com/TRTT-VOYAGE/trttvoyage-diamond-king-chatgpt-6)  
-**Website:** https://trttvoyage.com
+This repository began with a real working question: how can a person and an AI assistant preserve project context, decisions, lessons, evidence, and progress in a structured way—without exposing private conversations or losing important history?
 
-## What this repository contains
+The answer is being explored here as both a public learning journey and the product foundation for a future SaaS workspace.
 
-- Daily chapters with useful lessons and verified milestones.
-- Technical discoveries, decisions, corrections, and project retrospectives.
-- Reusable learning notes and public-safe project knowledge.
+> **ONE TEAM. ONE VISION. ONE JOURNEY.**
 
-## Editorial and privacy standard
+## Project identity
 
-This is a curated learning journal, **not a raw live-chat dump**. Entries are written from context and evidence available at the time of preparation. They exclude credentials, API keys, tokens, private contact details, sensitive personal information, and confidential third-party material. Unverified claims are labelled rather than presented as facts.
+- **Founder / human project owner:** Abu Taher — known in this project as **Diamond Raja**.
+- **AI collaborator:** **Diamond King**, an AI assistant powered by ChatGPT. It supports research, planning, drafting, technical analysis, and documentation; it is not a human founder, employee, or legal entity.
+- **Project:** Diamond Raja & Diamond King — Human–AI Project Journal.
+- **Working product direction:** a SaaS workspace for structured human–AI project memory, decision records, evidence, and learning journals. Product name and scope remain subject to validation.
+- **Origin ecosystem:** TRTT Voyage.
+- **Website:** https://trttvoyage.com
+- **Command Center:** [Diamond King Command Center](https://github.com/TRTT-VOYAGE/trttvoyage-diamond-king-chatgpt-6)
 
-Daily entries are prepared when the project conversation or source material is available. This repository does not have automatic access to every ChatGPT conversation, and a scheduled GitHub job cannot independently read private chats. Therefore, automatic daily chat synchronization is not claimed.
+## Why it was created
 
-## Start here
+Important work is often scattered across chats, documents, task boards, and repositories. Decisions lose their context, lessons are repeated, and teams struggle to distinguish verified progress from assumptions. Raw chat exports create additional privacy and noise problems.
 
+This project explores a safer, more useful approach: turn meaningful collaboration into organized, searchable, evidence-linked project knowledge that people can review, own, export, and share selectively.
+
+## What it is today — and what it is not
+
+**Today:** a public, curated project journal and product-planning repository. It contains project origin, collaboration roles, principles, learning chapters, and an evolving SaaS roadmap.
+
+**Not yet:** a deployed SaaS, a working multi-user application, an automated chat-ingestion service, or a subscription business. No customers, revenue, integrations, security certification, or production readiness are claimed.
+
+## Product concept
+
+See [Product Overview](PRODUCT-OVERVIEW.md) for the problem, users, proposed capabilities, and product boundaries. See [SaaS Roadmap](SAAS-ROADMAP.md) for staged validation and delivery.
+
+The product should help users:
+- Capture project decisions with context, owners, dates, and evidence.
+- Turn useful human–AI work into curated knowledge rather than indiscriminate transcripts.
+- Track milestones, lessons, risks, and next actions across projects.
+- Control what stays private, what is shared with a team, and what becomes public.
+- Export their records in portable formats and retain ownership of their data.
+
+## People, roles, and accountability
+
+- **Abu Taher / Diamond Raja:** founder, human owner, product direction, and final decision-maker.
+- **Diamond King / ChatGPT:** AI collaborator for analysis, documentation, planning, and implementation assistance. AI output must be checked; the AI does not hold ownership or make binding decisions.
+- **Future contributors:** may participate under clear attribution, consent, and least-privilege access. No contributor is implied to have joined unless recorded.
+
+Read [Team & Project Origin](TEAM-AND-ORIGIN.md).
+
+## Repository guide
+
+- [Team & Project Origin](TEAM-AND-ORIGIN.md)
+- [Product Overview](PRODUCT-OVERVIEW.md)
+- [Project Rules](PROJECT-RULES.md)
+- [Master Franchise Vision](MASTER-FRANCHISE-VISION.md)
+- [SaaS Roadmap](SAAS-ROADMAP.md)
+- [Collaboration Record](COLLABORATION-RECORD.md)
 - [Journal Rules](JOURNAL-RULES.md)
 - [Privacy & Security](PRIVACY-AND-SECURITY.md)
 - [Chapters](chapters/)
-- [Lessons](lessons/)
-- [Decisions](decisions/)
 - [Changelog](CHANGELOG.md)
 
+## Principles
+
+Evidence before claims. Privacy by design. Human ownership. Transparent AI attribution. Portable data. Accessible, practical tools. Preserve history and correct mistakes openly.
+
+## Journal and synchronization limits
+
+This repository is curated, not a raw live-chat dump. Diamond King does not have automatic access to every ChatGPT conversation. GitHub Actions or a scheduled task cannot independently read private chats. Chapters are prepared from context and evidence available during an authorized working session; automatic daily chat synchronization is not claimed.
+
+## Status
+
+**Stage: concept and documentation.** SaaS feasibility, user validation, MVP design, implementation, security review, hosting, and commercial model remain to be tested. The roadmap records these as future work, not completed features.
+
 ---
-*Maintained as a public learning record by Diamond Raja, with AI-assisted editorial and technical contributions from Diamond King (ChatGPT).*
+*Public project record maintained by Abu Taher (Diamond Raja), with AI-assisted contributions from Diamond King (ChatGPT).*

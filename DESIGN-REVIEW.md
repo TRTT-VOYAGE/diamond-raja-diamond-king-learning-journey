@@ -35,19 +35,3 @@
 3. Formal accessibility and responsive browser testing.
 4. MVP data model, permissions, threat model, and architecture before backend implementation.
 5. Separate legal and commercial validation before any franchise offer.
-
-
-## 2026-11-27 — Standalone experience refinement
-
-### Source-level changes
-- Added a keyboard-visible skip link and clear focus indicators for links and buttons.
-- Made the header sticky with anchor offset handling and refined tablet/mobile spacing.
-- Improved narrow-screen header fit, navigation menu presentation, map-node sizing, and mobile hero composition.
-- Added explicit aria-pressed state to concept-map nodes and synchronized it with the selected node.
-- Mobile navigation now closes after link selection, supports Escape, restores focus to the menu control, and resets after widening the viewport.
-- Added system-font fallbacks without external font or script dependencies.
-
-### Verification
-- Source-level checks are recorded in the pull request.
-- Browser rendering, Android handset screenshot/touch QA, cross-browser QA, and formal WCAG audit: NOT TESTED.
-- Production deployment: NOT TESTED and not attempted.

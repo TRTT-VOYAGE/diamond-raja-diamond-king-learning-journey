@@ -14,11 +14,11 @@
   <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
   <header class="topbar">
     <a class="brand" href="#home" aria-label="Diamond King Universe home"><span class="brand-gem">◆</span><span>DIAMOND <b>KING</b><small>MASTER FRANCHISE · CONCEPT EXPERIENCE</small></span></a>
-    <nav class="main-nav" aria-label="Main navigation">
+    <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
       <a href="#universes">Universes</a><a href="#journey">Journey</a><a href="#blueprint">Blueprint</a>
     </nav>
     <a class="top-cta" href="https://github.com/TRTT-VOYAGE/diamond-raja-diamond-king-learning-journey" target="_blank" rel="noreferrer">Open project <span>↗</span></a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-controls="main-navigation" aria-expanded="false">☰</button>
   </header>
   <main id="home">
     <section class="hero shell">
@@ -99,10 +99,25 @@ if (map) {
 }
 const toggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".main-nav");
-if (toggle && nav) toggle.addEventListener("click", () => {
-  const open = nav.classList.toggle("open");
-  toggle.setAttribute("aria-expanded", String(open));
-});
+if (toggle && nav) {
+  const closeMenu = (returnFocus = false) => {
+    nav.classList.remove("open");
+    toggle.setAttribute("aria-expanded", "false");
+    if (returnFocus) toggle.focus();
+  };
+  toggle.addEventListener("click", () => {
+    const open = !nav.classList.contains("open");
+    nav.classList.toggle("open", open);
+    toggle.setAttribute("aria-expanded", String(open));
+  });
+  nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => closeMenu()));
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape" && nav.classList.contains("open")) closeMenu(true);
+  });
+  window.addEventListener("resize", () => {
+    if (window.matchMedia("(min-width: 651px)").matches) closeMenu();
+  });
+}
 document.querySelectorAll("[data-world]").forEach(link => link.addEventListener("click", () => {
   const target = link.dataset.world;
   const node = document.querySelector('[data-node="' + (target === "learning" ? "learn" : target === "ideas" ? "idea" : "project") + '"]');

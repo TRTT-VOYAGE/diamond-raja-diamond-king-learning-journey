@@ -100,3 +100,8 @@ The public learning journey is open for everyone to explore. Start with the [Fre
 **Access is free; third-party licences still apply.** Give attribution where required, respect privacy and copyright, and distinguish verified results from examples and experiments.
 
 [Explore the TRTT-VOYAGE GitHub organization](https://github.com/TRTT-VOYAGE).
+
+
+## Start the free learning journey
+
+New here? Follow the practical [Start Here learning path](START-HERE.md): Learn → Imagine → Build → Share. It includes four exercises, completion evidence, and a reusable project-record template. No paid course or special software is required.

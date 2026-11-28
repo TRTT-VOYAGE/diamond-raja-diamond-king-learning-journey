@@ -105,3 +105,8 @@ The public learning journey is open for everyone to explore. Start with the [Fre
 ## Start the free learning journey
 
 New here? Follow the practical [Start Here learning path](START-HERE.md): Learn → Imagine → Build → Share. It includes four exercises, completion evidence, and a reusable project-record template. No paid course or special software is required.
+
+
+## Diamond King connected project bridge
+
+This Learning Journey is one module in the DR-TRTT-OPS-001 ecosystem coordinated by [Diamond King Command Center](https://github.com/TRTT-VOYAGE/trttvoyage-diamond-king-chatgpt-6). The connected [TRTT Voyage Travelpayout hub](https://github.com/TRTT-VOYAGE/Travelpayout) owns its separate travel partner catalog. See [the bridge guide](docs/DIAMOND-KING-BRIDGE-001.md) for repository roles, shared record fields and synchronization limits.

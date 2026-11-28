@@ -24,3 +24,12 @@ This is a static front-end concept prototype. It does not include authentication
 - Responsive and reduced-motion CSS rules are included.
 - Automated browser, accessibility, and cross-device tests: NOT TESTED in this environment.
 - Production deployment: NOT TESTED.
+
+
+## 2026-11-28 — Learning Journey usability update
+
+- Added `START-HERE.md`, a free four-step Learn → Imagine → Build → Share guide with exercises, evidence criteria, a reusable project record, and privacy/licensing reminders.
+- Added direct Start Here discovery links from the README and homepage.
+- Repaired mobile navigation behavior: selecting a link closes the menu; Escape closes it and returns focus to the toggle; desktop resize resets the expanded state.
+- Source review: PASS for link wiring, keyboard focus handling, and responsive navigation state.
+- Browser, mobile device, screen-reader, Lighthouse, and production deployment tests: NOT TESTED. This remains a static learning resource, not a deployed SaaS or credentialed course.

@@ -9,6 +9,7 @@
 
 - [Diamond King Command Center](https://github.com/TRTT-VOYAGE/trttvoyage-diamond-king-chatgpt-6) — canonical project coordination, decisions, memory and bridge registry.
 - [TRTT Voyage Travelpayout](https://github.com/TRTT-VOYAGE/Travelpayout) — travel partner directory and outbound referral module.
+- [TRTT Voyage Amazon Picks](https://github.com/TRTT-VOYAGE/AMAZON) — the six-item Owner-approved Amazon catalog.
 - [Learning Journey repository](https://github.com/TRTT-VOYAGE/diamond-raja-diamond-king-learning-journey) — this repository.
 
 ## Module responsibility
